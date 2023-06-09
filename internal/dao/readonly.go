@@ -14,7 +14,7 @@ type ReadOnlyDao struct {
 func NewReadOnly() (IReadOnlyDao, *DbStorage) {
 	db := newDb()
 
-	pool := newCachePool(configs.Boot.Redis.Addr, "")
+	pool := newCachePool(configs.Boot.Redis.Addr, configs.Boot.Redis.Password)
 	dao := &ReadOnlyDao{
 		db:    db,
 		redis: pool,
