@@ -177,8 +177,9 @@ github.com/hjson/hjson-go/v4 v4.0.0/go.mod h1:KaYt3bTw3zhBjYqnXkYywcYctk0A2nxeEF
 github.com/huandu/xstrings v1.3.1/go.mod h1:y5/lhBue+AyNmUVz9RLU9xbLR0o4KIIExikq4ovT0aE=
 github.com/huandu/xstrings v1.4.0 h1:D17IlohoQq4UcpqD7fDk80P7l+lwAmlFaBHgOipl2FU=
 github.com/huandu/xstrings v1.4.0/go.mod h1:y5/lhBue+AyNmUVz9RLU9xbLR0o4KIIExikq4ovT0aE=
-github.com/itering/scale.go v1.5.9 h1:3Qyg5jB04opo2LrjGai/ARwvuwwf27k9Rtn3IIH/pqU=
 github.com/itering/scale.go v1.5.9/go.mod h1:k0JzEnuoqx0a0pwaSKOFwTNm7ONZ56F2SiIuSGDRvYA=
+github.com/itering/scale.go v1.6.6 h1:tqPRcgmprXJQ9al9AYGFqRHbU8zm4JiiMLDn15kPMaE=
+github.com/itering/scale.go v1.6.6/go.mod h1:fmksrbfD7WRKkP9cr+ewz6qDFWYWQ/2O7pOsP9m2jJA=
 github.com/itering/substrate-api-rpc v0.4.17 h1:0r69xOVCBox97jHKghm1DXhnD/IlksxnS5h9xPWPRDU=
 github.com/itering/substrate-api-rpc v0.4.17/go.mod h1:+vFs5me6MK3L6hI4dk0Oik7M3zTxZNR+240+mDGtvi8=
 github.com/jackc/pgpassfile v1.0.0 h1:/6Hmqy13Ss2zCq62VdNG8tM1wchn8zjSGOBJ6icpsIM=
