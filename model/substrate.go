@@ -14,11 +14,11 @@ type ChainBlock struct {
 	ParentHash      string `gorm:"default: null;size:100" json:"parent_hash"`
 	StateRoot       string `gorm:"default: null;size:100" json:"state_root"`
 	ExtrinsicsRoot  string `gorm:"default: null;size:100" json:"extrinsics_root"`
-	Logs            string `json:"logs" gorm:"type:text;"`
-	Extrinsics      string `json:"extrinsics" gorm:"type:MEDIUMTEXT;"`
+	Logs            string `json:"logs" gorm:"type:LONGTEXT;"`
+	Extrinsics      string `json:"extrinsics" gorm:"type:LONGTEXT;"`
 	EventCount      int    `json:"event_count"`
 	ExtrinsicsCount int    `json:"extrinsics_count"`
-	Event           string `json:"event" gorm:"type:MEDIUMTEXT;"`
+	Event           string `json:"event" gorm:"type:LONGTEXT;"`
 	SpecVersion     int    `json:"spec_version"`
 	Validator       string `json:"validator"`
 	CodecError      bool   `json:"codec_error"`
