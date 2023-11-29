@@ -23,10 +23,10 @@ jobs:
           sudo docker-compose -f docker-compose.db.yml up -d
 
       # Set up golang env
-      - name: Set up GO 1.20.5
+      - name: Set up GO 1.21.1
         uses: actions/setup-go@v4
         with:
-          go-version: 1.20.5
+          go-version: 1.21.1
         id: go
       # Cache Go Modules
       - name: Cache Go Modules
