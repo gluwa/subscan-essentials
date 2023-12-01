@@ -7,7 +7,7 @@ require (
 	github.com/gin-gonic/gin v1.9.1
 	github.com/golang/protobuf v1.5.3
 	github.com/gomodule/redigo v1.8.9
-	github.com/gorilla/websocket v1.5.0
+	github.com/gorilla/websocket v1.5.1
 	github.com/huandu/xstrings v1.4.0
 	github.com/itering/scale.go v1.5.9
 	github.com/itering/substrate-api-rpc v0.4.17
